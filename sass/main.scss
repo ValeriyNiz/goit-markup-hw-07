@@ -2,34 +2,38 @@
 
 @import './base/reset';
 
-@import './utils/container';
+@import './components/container';
 
-@import './utils/section';
+@import './components/section';
 
-@import './components/header';
+@import './layout/header';
 
 @import './components/navigation';
 
-@import './components/hero';
+@import './layout/hero';
 
 @import './utils/visually-hidden';
 
-@import './components/features';
+@import './layout/features';
 
-@import './components/works';
+@import './layout/works';
 
-@import './components/team';
+@import './layout/team';
 
-@import './components/clients';
+@import './layout/clients';
 
-@import './components/footer';
+@import './layout/footer';
 
 @import './components/socials';
 
 @import './components/subsription';
 
-@import './components/portfolio';
+@import './portfolio/filtres';
+
+@import './portfolio/gallery';
 
 @import './components/backdrop';
 
 @import './components/modal';
+
+@import './utils/is-hidden';
